@@ -81,6 +81,7 @@ footer {
   justify-content: space-evenly;
   margin-left: 100px;
   margin-right: 100px;
+  padding-bottom: 34px;
 }
 
 .foot {
@@ -100,7 +101,7 @@ nav li {
 
 .one, .two, .three, .four, .five, .six {
   background-size: cover;
-  border: 4px solid;
+  border: 2px solid;
   margin-left: 20px;
   margin-right: 20px;
   flex: 1;

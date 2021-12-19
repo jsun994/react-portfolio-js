@@ -19,7 +19,7 @@ function Nav (props) {
                         <a 
                             href="#about"
                             onClick={ () => props.change("about") }
-                            className={ props.current === "about" ? "inactive" : "link" }
+                            className={ props.current === "about" ? "active" : "link" }
                         >
                             about
                         </a>
@@ -29,7 +29,7 @@ function Nav (props) {
                         <a 
                             href="#contact"
                             onClick={ () => props.change("contact") }
-                            className={ props.current === "contact" ? "inactive" : "link" }   
+                            className={ props.current === "contact" ? "active" : "link" }   
                         >
                             contact
                         </a>
@@ -39,7 +39,7 @@ function Nav (props) {
                         <a 
                             href="#portfolio"
                             onClick={ () => props.change("portfolio") }  
-                            className={ props.current === "portfolio" ? "inactive" : "link" }  
+                            className={ props.current === "portfolio" ? "active" : "link" }  
                         >
                             portfolio
                         </a>
@@ -49,7 +49,7 @@ function Nav (props) {
                         <a 
                             href="#resume"
                             onClick={ () => props.change("resume") }
-                            className={ props.current === "resume" ? "inactive" : "link" }  
+                            className={ props.current === "resume" ? "active" : "link" }  
                         >
                             resume
                         </a>
