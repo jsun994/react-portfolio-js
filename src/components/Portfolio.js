@@ -56,7 +56,6 @@ function Portfolio() {
                         <h3><a href="https://github.com/jsun994/daily-weather-forecast">github: weather forecast</a></h3>
                         <h3><a href="https://github.com/jsun994/interactive-music-project">github: interactive music</a></h3>
                     </div>
-
                 </div>
         </section>
     );
