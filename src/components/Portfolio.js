@@ -16,9 +16,15 @@ function Portfolio() {
                         <a href="https://tech-blog-pro.herokuapp.com/" className='one'>
                             <img src={proj1} style={{ width: "80%" }} alt="cover"></img>
                         </a>
+                        
                         <a href="https://jsun994.github.io/password/" className='two'>
                             <img src={proj2} style={{ width: "80%" }} alt="cover"></img>
                         </a>
+                    </div>
+
+                    <div className='github'>
+                        <h3><a href="https://github.com/jsun994/pro-tech-blog">github: pro tech blog</a></h3>
+                        <h3><a href="https://github.com/jsun994/password">github: password generator</a></h3>
                     </div>
                     
                     <div className="row-two">
@@ -31,6 +37,11 @@ function Portfolio() {
                         </a>
                     </div>
 
+                    <div className='github'>
+                        <h3><a href="https://github.com/jsun994/portfolio">github: portfolio</a></h3>
+                        <h3><a href="https://github.com/jsun994/work-day-scheduler">github: scheduler</a></h3>
+                    </div>
+
                     <div className="row-three">
                         <a href="https://jsun994.github.io/daily-weather-forecast/" className="five">
                             <img src={proj5} style={{ width: "80%" }} alt="cover"></img>
@@ -40,6 +51,12 @@ function Portfolio() {
                             <img src={proj6} style={{ width: "80%" }} alt="cover"></img>
                         </a>
                     </div>
+
+                    <div className='github'>
+                        <h3><a href="https://github.com/jsun994/daily-weather-forecast">github: weather forecast</a></h3>
+                        <h3><a href="https://github.com/jsun994/interactive-music-project">github: interactive music</a></h3>
+                    </div>
+
                 </div>
         </section>
     );
