@@ -33,7 +33,7 @@ function Header() {
         <div style={{
             backgroundImage: `url(${background})`,
             backgroundRepeat: 'no-repeat',
-            height:'164px' 
+            height:'164px'
         }}>
             <Nav current={current} change={change}></Nav>
             <div>{ render() }</div>

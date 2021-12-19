@@ -3,10 +3,13 @@ import React from 'react';
 function Nav (props) {
     
     return (
-        <header class>
+        <header class="name">
             <h2>
-                <a href="/">
-                Jay Sun
+                <a 
+                    href="#about"
+                    onClick={ () => props.change("about") }
+                >
+                    Jay Sun
                 </a>
             </h2>
 
@@ -15,7 +18,8 @@ function Nav (props) {
                     <li>
                         <a 
                             href="#about"
-                            onClick={ () => props.change("about") }    
+                            onClick={ () => props.change("about") }
+                            className={ props.current === "about" ? "inactive" : "link" }
                         >
                             about
                         </a>
@@ -24,7 +28,8 @@ function Nav (props) {
                     <li>
                         <a 
                             href="#contact"
-                            onClick={ () => props.change("contact") }    
+                            onClick={ () => props.change("contact") }
+                            className={ props.current === "contact" ? "inactive" : "link" }   
                         >
                             contact
                         </a>
@@ -33,7 +38,8 @@ function Nav (props) {
                     <li>
                         <a 
                             href="#portfolio"
-                            onClick={ () => props.change("portfolio") }    
+                            onClick={ () => props.change("portfolio") }  
+                            className={ props.current === "portfolio" ? "inactive" : "link" }  
                         >
                             portfolio
                         </a>
@@ -42,7 +48,8 @@ function Nav (props) {
                     <li>
                         <a 
                             href="#resume"
-                            onClick={ () => props.change("resume") }    
+                            onClick={ () => props.change("resume") }
+                            className={ props.current === "resume" ? "inactive" : "link" }  
                         >
                             resume
                         </a>

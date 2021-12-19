@@ -10,10 +10,78 @@ h2 {
   margin: 0px;
 }
 
+.name {
+  padding: 12px;
+}
+
 a {
-  color: whitesmoke;
+  color: yellowgreen;
+  text-decoration: none;
 }
 
 section {
   padding-top: 34px;
+}
+
+.link {
+  color: orange;
+}
+
+ul {
+  list-style: none;
+}
+
+.abSec {
+  text-align: center;
+}
+
+.reSec {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact {
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+
+input, textarea {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  outline: none;
+  margin: 0 2px;
+  margin-bottom: 40px;
+}
+
+.info {
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.foot {
+  font-size: x-large;
+  color: orange;
+}
+
+nav li {
+  font-size: 18px;
 }
