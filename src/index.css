@@ -63,6 +63,7 @@ button {
   outline: none;
   margin: 0 2px;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .info {
@@ -83,5 +84,5 @@ footer {
 }
 
 nav li {
-  font-size: 18px;
+  font-size: 16px;
 }
