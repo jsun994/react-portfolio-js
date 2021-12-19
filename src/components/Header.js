@@ -5,6 +5,7 @@ import About from './About.js';
 import ContactForm from './Contact.js';
 import Portfolio from './Portfolio.js';
 import Resume from './Resume.js';
+import Footer from './Footer.js';
 
 function Header() {
     const [current, change] = useState(false);
@@ -36,7 +37,9 @@ function Header() {
         }}>
             <Nav current={current} change={change}></Nav>
             <div>{ render() }</div>
+            <Footer></Footer>
         </div>
+        
     );
 }
 
