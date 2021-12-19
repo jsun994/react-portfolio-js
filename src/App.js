@@ -1,12 +1,28 @@
+import React, { useState } from 'react';
+import Nav from './components/Nav.js';
 import About from './components/About.js';
-import Contact from './components/Contact.js';
+import ContactForm from './components/Contact.js';
 
 function App() {
-  return (
+  const [contactSelected, setContactSelected] = useState(false);
+
+  return (  
     <div className="App">
-      <header className="App-header"></header>
-      <About></About>
-      <Contact></Contact>
+
+      <Nav
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
+
+      <main>
+      {!contactSelected ? (
+          <>
+            <About></About>
+          </>
+        ) : (
+          <ContactForm></ContactForm>
+        )}
+      </main>
     </div>
   );
 }
