@@ -3,18 +3,14 @@ import coverImage from '../assets/photo.jpg';
 
 function About() {
   return (
-    <section className="my-5">
+    <section className="section">
       <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "14%" }} alt="cover" />
-      <div className="my-2">
+      <img src={coverImage} className="img" style={{ width: "14%" }} alt="cover" />
+      <div className="info">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          Hello, my name is Jay Sun. I am currently attending the UC Berkeley Coding Boot Camp.
+          I graduated from UC San Diego with a Bachelor of Science Degree in Management Science. Furthermore, I hold a Master's Degree in Accountancy from SDSU.
+          I am currently an Auditor, with experiences in Compliance Audits. I worked as a Tax Analyst Intern at Intuit, where I gained experience in Quality Assurance as well as Programming in Java.
         </p>
       </div>
     </section>
