@@ -2,26 +2,36 @@ import React, { useState } from 'react';
 import Nav from './components/Nav.js';
 import About from './components/About.js';
 import ContactForm from './components/Contact.js';
+import Portfolio from './components/Portfolio.js';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
+  const [current, change] = useState(false);
 
-  return (  
+  const render = () => {
+    switch(current) {
+      case "about": 
+      return <About></About>
+      
+      case "contact": 
+      return <ContactForm></ContactForm>
+      
+      case "portfolio":
+      return <Portfolio></Portfolio>
+      
+      default:
+      return <About></About>
+    } 
+  };
+
+  return (
     <div className="App">
 
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <Nav current={current} change={change}></Nav>
 
       <main>
-      {!contactSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        {
+          render()
+        }
       </main>
     </div>
   );

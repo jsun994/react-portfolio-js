@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="abSec">
       <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="img" style={{ width: "14%" }} alt="cover" />
+      <img src={coverImage} className="img" style={{ width: "14%" }} alt="cover"/>
       <div className="info">
         <p>
           Hello, my name is Jay Sun. I am currently attending the UC Berkeley Coding Boot Camp.
