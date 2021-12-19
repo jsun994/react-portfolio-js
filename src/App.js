@@ -3,6 +3,7 @@ import Nav from './components/Nav.js';
 import About from './components/About.js';
 import ContactForm from './components/Contact.js';
 import Portfolio from './components/Portfolio.js';
+import Resume from './components/Resume.js';
 
 function App() {
   const [current, change] = useState(false);
@@ -17,7 +18,10 @@ function App() {
       
       case "portfolio":
       return <Portfolio></Portfolio>
-      
+
+      case "resume":
+      return <Resume></Resume>
+
       default:
       return <About></About>
     } 
