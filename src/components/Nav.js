@@ -3,7 +3,7 @@ import React from 'react';
 function Nav (props) {
     
     return (
-        <header>
+        <header class>
             <h2>
                 <a href="/">
                 Jay Sun
