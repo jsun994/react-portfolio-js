@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jsun994/react-portfolio-js">
-    <img src="./media/logo.png" alt="Logo" width="80" height="80">
+    <img src="./src/assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <p align="center">
@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![media1](./assets/ss1.png)
+![media1](./src/assets/ss1.png)
 Deployed - [Portfolio](https://jsun994.github.io/react-portfolio-js/)
 
 ### Built With
