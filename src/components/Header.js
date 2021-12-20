@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import background from '../assets/background.jpeg';
+import background from '../assets/banner.jpeg';
 import Nav from './Nav.js';
 import About from './About.js';
 import ContactForm from './Contact.js';
@@ -32,8 +32,8 @@ function Header() {
     return (
         <div style={{
             backgroundImage: `url(${background})`,
-            backgroundRepeat: 'no-repeat',
-            height:'164px'
+            backgroundSize: 'cover',
+            height:'166px'
         }}>
             <Nav current={current} change={change}></Nav>
             <div>{ render() }</div>

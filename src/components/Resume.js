@@ -5,9 +5,9 @@ function Resume() {
     return (
         <section className="reSec">
             <h1 id="resume">resume</h1>
-            <h2><a href={resume}>pdf</a></h2>
+            <h2><a href={resume} className='res'>pdf</a></h2>
             <p>
-                HTML, CSS, JavaScript, jQuery, React.js, Bootstrap, Bulma, UI/UX Design
+                HTML, CSS, JavaScript, jQuery, React.js, Bootstrap, Bulma
             </p>
             <p>
                 Node.js, Express.js, MySQL, MySQL2, MongoDB

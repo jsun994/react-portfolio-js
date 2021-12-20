@@ -7,9 +7,10 @@ function Nav (props) {
             <h2>
                 <a 
                     href="#about"
+                    className='js'
                     onClick={ () => props.change("about") }
                 >
-                    Jay Sun
+                    JAY SUN
                 </a>
             </h2>
 
