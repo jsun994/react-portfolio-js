@@ -2,7 +2,7 @@ import React from 'react';
 import proj1 from '../assets/ptblog.png';
 import proj2 from '../assets/project01.png';
 import proj3 from '../assets/project02.png';
-import proj4 from '../assets/project03.png';
+import proj4 from '../assets/mov.png';
 import proj5 from '../assets/project04.png';
 import proj6 from '../assets/project05.png';
 
@@ -32,14 +32,14 @@ function Portfolio() {
                             <img src={proj3} style={{ width: "80%" }} alt="cover"></img>
                         </a>
     
-                        <a href="https://jsun994.github.io/work-day-scheduler/" className="four">
+                        <a href="https://movie-shop-mern.herokuapp.com" className="four">
                             <img src={proj4} style={{ width: "80%" }} alt="cover"></img>
                         </a>
                     </div>
 
                     <div className='github'>
                         <h3><a href="https://github.com/jsun994/portfolio">github: portfolio</a></h3>
-                        <h3><a href="https://github.com/jsun994/work-day-scheduler">github: scheduler</a></h3>
+                        <h3><a href="https://github.com/jsun994/movie-shop-mern">github: movie shop</a></h3>
                     </div>
 
                     <div className="row-three">
