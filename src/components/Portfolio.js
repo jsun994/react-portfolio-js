@@ -1,7 +1,7 @@
 import React from 'react';
 import proj1 from '../assets/ptblog.png';
 import proj2 from '../assets/project01.png';
-import proj3 from '../assets/project02.png';
+import proj3 from '../assets/bt.png';
 import proj4 from '../assets/mov.png';
 import proj5 from '../assets/project04.png';
 import proj6 from '../assets/project05.png';
@@ -28,7 +28,7 @@ function Portfolio() {
                     </div>
                     
                     <div className="row-two">
-                        <a href="https://jsun994.github.io/portfolio/" className="three"> 
+                        <a href="https://bt-pwa.herokuapp.com" className="three"> 
                             <img src={proj3} style={{ width: "80%" }} alt="cover"></img>
                         </a>
     
@@ -38,7 +38,7 @@ function Portfolio() {
                     </div>
 
                     <div className='github'>
-                        <h3><a href="https://github.com/jsun994/portfolio">github: portfolio</a></h3>
+                        <h3><a href="https://github.com/jsun994/pwa-bt">github: budget tracker</a></h3>
                         <h3><a href="https://github.com/jsun994/movie-shop-mern">github: movie shop</a></h3>
                     </div>
 
@@ -47,7 +47,7 @@ function Portfolio() {
                             <img src={proj5} style={{ width: "80%" }} alt="cover"></img>
                         </a>
     
-                        <a href="https://k-owell.github.io/Project-HotTopic/" className="six">
+                        <a href="https://jsun994.github.io/interactive-music-project/" className="six">
                             <img src={proj6} style={{ width: "80%" }} alt="cover"></img>
                         </a>
                     </div>

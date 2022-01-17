@@ -7,14 +7,11 @@ function Resume() {
             <h1 id="resume">resume</h1>
             <h2><a href={resume} className='res'>pdf</a></h2>
             <p>
-                HTML, CSS, JavaScript, jQuery, React.js, Bootstrap, Bulma
+                HTML, CSS, JavaScript, jQuery, Bootstrap, Bulma, REST APIs
             </p>
             <p>
-                Node.js, Express.js, MySQL, MySQL2, MongoDB
+                Node.js, Express.js, React.js, MySQL, MySQL2, MongoDB, GraphQL
             </p>
-            <p>
-                RESTful API, Handlebars.js
-            </p>   
         </section>
     );
 }
